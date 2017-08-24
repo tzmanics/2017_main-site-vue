@@ -25,8 +25,9 @@ export default {
 		background-color: #999;
     font-family: 'Abel', Helvetica, sans-serif;
   }
-  p {
+  p, a {
     margin: 0;
     line-height: .8em;
+    color: black;
   }
 </style>
