@@ -3,7 +3,7 @@
     <div class="menu">
       <router-link class="name" to="/"> TARA ZVEZDA MANICSIC </router-link>
       <router-link class="weblog" to="/weblog"> WEBLOG </router-link>
-      <router-link class="resume" to="/"> RESUME </router-link>
+      <router-link class="resume" to="/resume"> RESUME </router-link>
       <a class="contact" href="mailto:tzmanics@gmail.com"> CONTACT </a>
       <router-link class="creations" to="/creations"> CREATIONS </router-link>
     </div>
@@ -22,13 +22,13 @@
 
 <style scoped>
   .faux-nav {
-    width: 70%;
+    width: 350px;
     margin: 0 auto;
     padding-top: 2em;
     text-align: center;
   }
   .name {
-    font-size: 2em;
+    font-size: 1.97em;
   }
   .weblog, .resume {
     font-size: 5.5em;
@@ -47,6 +47,7 @@
   }
   a:hover {
     text-decoration: none;
+    color: lightgray;
   }
   a:active {
     text-decoration: none;
