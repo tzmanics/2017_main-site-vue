@@ -1,17 +1,25 @@
 <template>
   <div class="faux-nav">
     <div class="menu">
-      <router-link class="name" to="/"> TARA ZVEZDA MANICSIC </router-link>
+      <a class="name" href="https://youtu.be/tQI1ddTciwM?t=3m24s"> TARA ZVEZDA MANICSIC </a>
       <router-link class="weblog" to="/weblog"> WEBLOG </router-link>
       <a class="resume" href="./static/small-resume.pdf"> RESUME </a>
       <a class="contact" href="mailto:tzmanics@gmail.com"> CONTACT </a>
       <router-link class="creations" to="/creations"> CREATIONS </router-link>
     </div>
     <div class="social-icons">
-      <a class="mdi twitter-box" href="https://twitter.com/tzmanics"></a>
-      <a class="mdi github-box" href="https://github.com/tzmanics"></a>
-      <a class="mdi instagram" href="https://instagram.com/tzmanics"></a>
-      <a class="mdi linekdin-box" href="https://www.linkedin.com/in/tzmanicsic/"></a>
+      <a class="twitter" href="https://twitter.com/tzmanics">
+        <icon name="twitter-square"></icon>
+      </a>
+      <a class="mdi github-box" href="https://github.com/tzmanics">
+        <icon name="github-square"></icon>
+      </a>
+      <a class="mdi instagram" href="https://instagram.com/tzmanics">
+        <icon name="instagram"></icon>
+      </a>
+      <a class="mdi linekdin-box" href="https://www.linkedin.com/in/tzmanicsic/">
+        <icon name="linkedin-square"></icon>
+      </a>
     </div>
   </div>
 </template>
@@ -39,6 +47,11 @@
   .creations {
     font-size: 4.1em;
   }
+  .fa-icon {
+    width: auto;
+    height: 1.5em;
+    padding: .25em;
+  }
   a:link {
     text-decoration: none;
   }
@@ -48,6 +61,10 @@
   a:hover {
     text-decoration: none;
     color: lightgray;
+  }
+  .name:hover {
+    color: black;
+    cursor: text;
   }
   a:active {
     text-decoration: none;
