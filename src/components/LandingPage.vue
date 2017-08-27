@@ -5,7 +5,7 @@
       <router-link class="weblog" to="/weblog"> WEBLOG </router-link>
       <a class="resume" href="./static/small-resume.pdf"> RESUME </a>
       <a class="contact" href="mailto:tzmanics@gmail.com"> CONTACT </a>
-      <router-link class="creations" to="/creations"> CREATIONS </router-link>
+      <!-- <router-link class="creations" to="/creations"> CREATIONS </router-link> -->
     </div>
     <div class="social-icons">
       <a class="twitter" href="https://twitter.com/tzmanics">
