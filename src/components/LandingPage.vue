@@ -3,7 +3,7 @@
     <div class="menu">
       <router-link class="name" to="/"> TARA ZVEZDA MANICSIC </router-link>
       <router-link class="weblog" to="/weblog"> WEBLOG </router-link>
-      <router-link class="resume" to="/resume"> RESUME </router-link>
+      <a class="resume" href="./static/small-resume.pdf"> RESUME </a>
       <a class="contact" href="mailto:tzmanics@gmail.com"> CONTACT </a>
       <router-link class="creations" to="/creations"> CREATIONS </router-link>
     </div>
