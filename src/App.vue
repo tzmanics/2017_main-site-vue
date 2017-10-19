@@ -32,4 +32,11 @@ export default {
     margin: 0;
     color: black;
   }
+  .background-box{
+    background-color: rgba(255, 255, 255, 0.45);
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
+  }
 </style>

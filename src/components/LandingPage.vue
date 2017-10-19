@@ -1,10 +1,11 @@
 <template>
-  <div class="faux-nav">
+  <div class="background-box">
     <div class="menu">
       <a class="name" href="https://youtu.be/tQI1ddTciwM?t=3m24s"> TARA ZVEZDA MANICSIC </a>
-      <router-link class="weblog" to="/weblog"> WEBLOG </router-link>
-      <a class="resume" href="./static/small-resume.pdf"> RESUME </a>
       <a class="contact" href="mailto:tzmanics@gmail.com"> CONTACT </a>
+      <a class="resume" href="./static/small-resume.pdf"> RESUME </a>
+      <router-link class="weblog" to="/weblog"> WEBLOG </router-link>
+      <router-link class="videos" to="/videos"> VIDEOS </router-link>
       <!-- <router-link class="creations" to="/creations"> CREATIONS </router-link> -->
     </div>
     <div class="social-icons">
@@ -29,12 +30,6 @@
 </script>
 
 <style scoped>
-  .faux-nav {
-    width: 350px;
-    margin: 0 auto;
-    padding-top: 2em;
-    text-align: center;
-  }
   .name {
     font-size: 1.97em;
   }
@@ -43,6 +38,10 @@
   }
   .contact {
     font-size: 5.1em;
+  }
+  .videos {
+    font-size: 6.4em;
+    padding-left: .05em;
   }
   .creations {
     font-size: 4.1em;
@@ -60,7 +59,7 @@
   }
   a:hover {
     text-decoration: none;
-    color: lightgray;
+    color: darkslategray;
   }
   .name:hover {
     color: black;

@@ -1,19 +1,30 @@
 <template>
-  <div class="message">
-    <div id="message-section"> 
+  <div class="background-box">
+    <div class="message">
       <p>
-        <a href="https://github.com/tzmanics/2017_weblog-REST-API">
+        <a href="https://github.com/tzmanics/2017_weblog-ui-preact">
           In the process 
         </a>
-        of making this awesome...or at least a list of blog posts (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
+        of making this awesome...or at least a list of my blog posts (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
       </p>
-    </div>     
-    <div id="message-section">
-      <p> In the meantime,
-        <a href="https://developer.telerik.com/author/tmanicsi/">
-          check these out.
-        </a>
-      </p>    
+      <p> In the meantime, check these out: </p>    
+      <ul>
+        <li>
+          <a href="https://github.com/tzmanics/U-Go-Hue-Go-Tutorial">
+            U Go Hue Go: Philips Hue API Project
+          </a>
+        </li>
+        <li>
+          <a href="https://developer.telerik.com/products/kendo-ui/touring-us-kendo-ui-camper/">
+            Kendo Camper Tour
+          </a>
+        </li>
+        <li>
+          <a href="https://developer.telerik.com/topics/web-development/javascripts-journey-2016/">
+            JavaScript's Journey through 2016
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -23,12 +34,22 @@
 </script>
 
 <style scoped>
-  .message {
-    width: 65%;
-    margin: 1em auto;
+  .home-button {
+    position: fixed;
   }
-  #message-section {
-    margin: 1em;
+  .background-box{
+    width: 460px;
+  }
+  .message {
+    font-size: 1.5em;
+    margin: 0 auto;
+    text-align: left;
+    width: 65%;
+  }
+  li {
+    text-align: left;
+  }
+  ul {
+    padding-bottom: 1em;
   }
 </style>
-
