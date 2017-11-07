@@ -39,4 +39,7 @@ export default {
     padding-top: 2em;
     text-align: center;
   }
+  .home {
+    position: fixed;
+  }
 </style>

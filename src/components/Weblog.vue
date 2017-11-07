@@ -1,30 +1,33 @@
 <template>
-  <div class="background-box">
-    <div class="message">
-      <p>
-        <a href="https://github.com/tzmanics/2017_weblog-ui-preact">
-          In the process 
-        </a>
-        of making this awesome...or at least a list of my blog posts (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
-      </p>
-      <p> In the meantime, check these out: </p>    
-      <ul>
-        <li>
-          <a href="https://github.com/tzmanics/U-Go-Hue-Go-Tutorial">
-            U Go Hue Go: Philips Hue API Project
+  <div class="main">
+    <router-link class="home" to="/"> HOME </router-link>
+    <div class="background-box">
+      <div class="message">
+        <p>
+          <a href="https://github.com/tzmanics/2017_weblog-ui-preact">
+            In the process 
           </a>
-        </li>
-        <li>
-          <a href="https://developer.telerik.com/products/kendo-ui/touring-us-kendo-ui-camper/">
-            Kendo Camper Tour
-          </a>
-        </li>
-        <li>
-          <a href="https://developer.telerik.com/topics/web-development/javascripts-journey-2016/">
-            JavaScript's Journey through 2016
-          </a>
-        </li>
-      </ul>
+          of making this awesome...or at least a list of my blog posts (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
+        </p>
+        <p> In the meantime, check these out: </p>    
+        <ul>
+          <li>
+            <a href="https://github.com/tzmanics/U-Go-Hue-Go-Tutorial">
+              U Go Hue Go: Philips Hue API Project
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.telerik.com/products/kendo-ui/touring-us-kendo-ui-camper/">
+              Kendo Camper Tour
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.telerik.com/topics/web-development/javascripts-journey-2016/">
+              JavaScript's Journey through 2016
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
