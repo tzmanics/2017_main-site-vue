@@ -26,8 +26,8 @@
     </div>
     <div class="announcements">
       COME SEE ME AT
-      <a href="https://allthingsopen.org"> ALL THINGS OPEN </a>
-      10/23-24 IN RALEIGH, NC!
+      <a href="http://devreach.com/"> DEVREACH </a>
+      11/13-14 IN SOFIA, BULGARIA!
     </div>
   </div>
 </template>
