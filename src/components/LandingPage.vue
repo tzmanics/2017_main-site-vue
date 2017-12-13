@@ -26,8 +26,8 @@
     </div>
     <div class="announcements">
       COME SEE ME AT
-      <a href="http://devreach.com/"> DEVREACH </a>
-      11/13-14 IN SOFIA, BULGARIA!
+      <a href="http://www.codemash.org/"> CODEMASH </a>
+      1/9-12 IN SANDUSKY, OH!
     </div>
   </div>
 </template>
