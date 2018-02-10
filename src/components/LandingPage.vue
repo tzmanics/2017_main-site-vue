@@ -26,9 +26,9 @@
     </div>
     <div class="announcements">
       COME SEE ME AT
-      <a href="http://www.codemash.org/"> CODEMASH </a>
-      1/9-12 IN SANDUSKY, OH!
-    </div>
+      <a href="https://developer.ibm.com/indexconf/sessions/#!?id=5484"> IBM INDEX </a>
+      2/20-22 IN SF, CA!
+    </div>  
   </div>
 </template>
 
