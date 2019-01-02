@@ -26,8 +26,8 @@
     </div>
     <div class="announcements">
       COME SEE ME AT
-      <a href="https://developer.ibm.com/indexconf/sessions/#!?id=5484"> IBM INDEX </a>
-      2/20-22 IN SF, CA!
+      <a href="https://www.ng-conf.org/"> ng-conf </a>
+      5/1-3 IN SLC!
     </div>  
   </div>
 </template>
