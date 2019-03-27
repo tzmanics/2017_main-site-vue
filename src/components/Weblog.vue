@@ -1,6 +1,8 @@
 <template>
   <div class="main">
-    <router-link class="home" to="/"> HOME </router-link>
+    <router-link class="home" to="/">
+      <icon name="home"></icon>
+    </router-link>
     <div class="background-box">
       <div class="message">
         <p>
@@ -39,6 +41,11 @@
 <style scoped>
   .home-button {
     position: fixed;
+  }
+  .fa-icon {
+    width: auto;
+    height: 2em;
+    padding: .25em;
   }
   .background-box{
     width: 460px;

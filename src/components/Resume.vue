@@ -1,6 +1,8 @@
 <template>
   <div class="main">
-    <router-link class="home" to="/"> HOME </router-link>
+    <router-link class="home" to="/">
+      <icon name="home"></icon>
+    </router-link>
     <div class="background-box">
       <div class="resume">
         <div class="header">
@@ -17,6 +19,7 @@
         </div>
         <hr>
         <div class="work">
+          WORK
           <ul>
             <li>
               <div class="title">
@@ -28,9 +31,7 @@
                 </h3>
               </div>
               <div class="description">
-                Producing creative and engaging demo applications, presentations and content to introduce,
-                educate and support developers using the Progress Telerik developer tools. Cultivate tech
-                communities to connect and work with other developers to help the team build a better product for the users. Focus on building with Node.js, Angular, microservice architecture and serverless backend.
+                Producing creative and engaging demo applications, presentations and content to introduce, educate and support developers using the Progress Telerik developer tools. Cultivate tech communities to connect and work with other developers to help the team build a better product for the users. Focus on building with Node.js, Angular, microservice architecture and serverless backend.
               </div>
             </li>
             <li>
@@ -48,6 +49,7 @@
         </div>
         <hr>
         <div class="school">
+          EDUCATION
           <ul>
             <li>
               <div class="title">
@@ -68,7 +70,28 @@
         </div>
         <hr>
         <div class="community">
+          COMMUNITY
           <ul>
+            <li>
+              <div class="title">
+                <h3>Program Manager & Guest Host | Always Forward w dshaw</h3>
+              </div>
+              <div class="info">
+                <h3>FEBRUARY 2018 - PRESENT</h3>
+              </div>
+              <div class="description">
+              </div>
+            </li>
+            <li>
+              <div class="title">
+                <h3>Web Technologies Team | Google Developer Expert</h3>
+              </div>
+              <div class="info">
+                <h3>DECEMBER 2017 - PRESENT</h3>
+              </div>
+              <div class="description">
+              </div>
+            </li>
             <li>
               <div class="title">
                 <h3>Founder &amp; Director | Cincy Women Who Code</h3>
@@ -96,20 +119,26 @@
         <hr>
         <div class="content">
           <div class="talks">
+            TALKS
             <ul> UPCOMING:
-              <li>Progress Next</li>
-              <li>JSConfEU</li>
-              <li>Front Conference</li>
+              <li><a href="https://2019.jsconf.eu/">JSConfEU</a></li>
+              <li><a href="https://frontendconf.ch/">Front Conference</a></li>
             </ul>
             <ul> PAST:
-              <li>dotJS</li>
-              <li>OSCon</li>
-              <li>Fluent</li>
-              <li>Node Summit</li>
-              <li>All Things Open</li>
+              <li><a href="https://goo.gl/diqAii">dotJS</a></li>
+              <li><a href="">OSCon</a></li>
+              <li><a href="https://goo.gl/gNX8aP">Fluent</a></li>
+              <li><a href="">Node Summit</a></li>
+              <li><a href="">All Things Open</a></li>
             </ul>
           </div>
           <div class="posts">
+            BLOG POSTS
+            <ul>
+              <li><a href="https://goo.gl/hbHHfU">How to JavaScript in 2018</a>
+              </li>
+              <li><a href="https://goo.gl/jkzzt2">Kinvey for Node Devs</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -124,6 +153,11 @@
 <style scoped>
   .home-button {
     position: fixed;
+  }
+  .fa-icon {
+    width: auto;
+    height: 2em;
+    padding: .25em;
   }
   .background-box{
     width: 90%;
