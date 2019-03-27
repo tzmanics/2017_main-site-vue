@@ -4,7 +4,7 @@
       <div class="menu">
         <a class="name" href="https://youtu.be/tQI1ddTciwM?t=3m24s"> TARA ZVEZDA MANICSIC </a>
         <a class="contact" href="mailto:tzmanics@gmail.com"> CONTACT </a>
-        <a class="resume" href="./static/small-resume.pdf"> RESUME </a>
+        <router-link class="resume" to="/resume"> RESUME </router-link>
         <router-link class="weblog" to="/weblog"> WEBLOG </router-link>
         <router-link class="videos" to="/videos"> VIDEOS </router-link>
         <!-- <router-link class="creations" to="/creations"> CREATIONS </router-link> -->
