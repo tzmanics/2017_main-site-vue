@@ -80,6 +80,7 @@
                 <h3>FEBRUARY 2018 - PRESENT</h3>
               </div>
               <div class="description">
+                Plan content, coordinate guests and host live video discussions on prevalent topics on and surrounding the Node and JavaScript ecosystem and community.
               </div>
             </li>
             <li>
@@ -90,6 +91,8 @@
                 <h3>DECEMBER 2017 - PRESENT</h3>
               </div>
               <div class="description">
+                Work with Google's web technology teams to help them bring the latest information to more developers and connect developers throughout technical communities.
+                
               </div>
             </li>
             <li>
@@ -118,6 +121,7 @@
         </div>
         <hr>
         <div class="content">
+          SELECTED CONTENT
           <div class="talks">
             TALKS
             <ul> UPCOMING:
@@ -138,6 +142,12 @@
               <li><a href="https://goo.gl/hbHHfU">How to JavaScript in 2018</a>
               </li>
               <li><a href="https://goo.gl/jkzzt2">Kinvey for Node Devs</a></li>
+              <li><a href="https://goo.gl/HyT2yk">
+                U Go Hue Go: Philips Hue API Project</a>
+              </li>
+              <li><a href="https://goo.gl/Ureka7">
+                JavaScript's Journey Through 2016</a>
+              </li>
             </ul>
           </div>
         </div>
