@@ -6,18 +6,19 @@
     <div class="background-box">
       <div class="resume">
         <div class="header">
-          <h1>Tara Zvezda Manicsic</h1>
-          <h2>DEVELOPER ADVOCATE</h2>
-          <h4>
-            <a href="mailto:tzmanics@gmail.com">tzmanics@gmail.com</a>
-            | <a href="tel:513-307-5955">513-307-5955</a>
-            | <a href="https://twitter.com/tzmanics">@tzmanics</a>
-            <div class="avatar">
-              <img src="https://goo.gl/22gPYy" alt="avatar" class="pic">
-            </div>
-          </h4>
+          <div class="header-text">
+            <h1>TARA ZVEZDA MANICSIC</h1>
+            <h2>DEVELOPER ADVOCATE</h2>
+            <h4>
+              <a href="mailto:tzmanics@gmail.com">tzmanics@gmail.com</a>
+              | <a href="tel:513-307-5955">513-307-5955</a>
+              | <a href="https://twitter.com/tzmanics">@tzmanics</a>
+            </h4>
+          </div>
+          <div class="avatar">
+            <img src="https://goo.gl/22gPYy" alt="avatar" class="pic">
+          </div>
         </div>
-        <hr>
         <div class="work">
           WORK
           <ul>
@@ -47,7 +48,6 @@
             </li>
           </ul>
         </div>
-        <hr>
         <div class="school">
           EDUCATION
           <ul>
@@ -68,7 +68,6 @@
             </li>
           </ul>
         </div>
-        <hr>
         <div class="community">
           COMMUNITY
           <ul>
@@ -119,7 +118,6 @@
             </li>
           </ul>
         </div>
-        <hr>
         <div class="content">
           SELECTED CONTENT
           <div class="talks">
@@ -161,23 +159,6 @@
 </script>
 
 <style scoped>
-  .home-button {
-    position: fixed;
-  }
-  .fa-icon {
-    width: auto;
-    height: 2em;
-    padding: .25em;
-  }
-  .background-box{
-    width: 90%;
-  }
-  .message {
-    font-size: 1.5em;
-    margin: 0 auto;
-    text-align: left;
-    width: 65%;
-  }
   .avatar {
     border: 2px solid lightgray;
     border-radius: 50%;
@@ -185,12 +166,41 @@
     overflow: hidden;
     position: relative;
     width: 200px;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+  }
+  .background-box{
+    width: 90%;
+  }
+  .fa-icon {
+    width: auto;
+    height: 2em;
+    padding: .25em;
+  }
+  .header-text {
+    float: left;
+    text-align: right;
+    width: 70%;
+  }
+  .home-button {
+    position: fixed;
+  }
+  .message {
+    font-size: 1.5em;
+    margin: 0 auto;
+    text-align: left;
+    width: 65%;
   }
   .pic {
-    display: inline;
     height: 100%;
     margin: 0 auto;
     width: auto;
+  }
+  h1, h2, h4 {
+    margin: 0;
+  }
+  h4 {
+    margin-top: 4px;
   }
   li {
     text-align: left;

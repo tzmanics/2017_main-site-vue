@@ -23,7 +23,11 @@ export default {
 		background-attachment: fixed;
 		background-size:  cover;
 		background-color: #999;
-    font-family: 'Abel', Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-weight: 200;
+  }
+  h1, h2, h3, h4 {
+    font-weight: 200;
   }
   p, a {
     display: inline;

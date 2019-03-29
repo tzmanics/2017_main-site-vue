@@ -38,9 +38,12 @@
 
 <style scoped>
   .name {
-    font-size: 1.97em;
+    font-size: 2em;
   }
-  .weblog, .resume {
+  .resume {
+    font-size: 5.7em;
+  }
+  .weblog {
     font-size: 5.5em;
   }
   .contact {
@@ -86,5 +89,8 @@
   }
   .announcements a {
     color: white;
+  }
+  .background-box {
+    padding-bottom: 40px;
   }
 </style>
