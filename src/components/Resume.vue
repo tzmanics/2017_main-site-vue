@@ -20,7 +20,6 @@
           </div>
         </div>
         <div class="work">
-          WORK
           <ul>
             <li>
               <div class="title">
@@ -43,13 +42,12 @@
                 <h3>AUGUST 2014 - NOVEMBER 2016  &#183; CINCINNATI, OH</h3>
               </div>
               <div class="description">
-                Create public and enterprise level software to help companies and developers host their applications as well as monitor their application’s performance on AWS, Joyent and Digital Ocean servers. Write, maintain, test and deploy software using Node.js, MongoDB, Docker, React and Go
+                <p>Create public and enterprise level software to help companies and developers host their applications as well as monitor their application’s performance on AWS, Joyent and Digital Ocean servers. Write, maintain, test and deploy software using Node.js, MongoDB, Docker, React and Go.</p>
               </div>
             </li>
           </ul>
         </div>
         <div class="school">
-          EDUCATION
           <ul>
             <li>
               <div class="title">
@@ -69,7 +67,6 @@
           </ul>
         </div>
         <div class="community">
-          COMMUNITY
           <ul>
             <li>
               <div class="title">
@@ -119,7 +116,7 @@
           </ul>
         </div>
         <div class="content">
-          SELECTED CONTENT
+          <h3>SELECTED CONTENT</h3>
           <div class="talks">
             TALKS
             <ul> UPCOMING:
@@ -162,24 +159,34 @@
   .avatar {
     border: 2px solid lightgray;
     border-radius: 50%;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
     position: relative;
-    width: 200px;
+    width: 150px;
     -webkit-shape-outside:circle();
     shape-outside:circle();
   }
   .background-box{
+    background-color: white;
+    height: 100%;
     width: 90%;
+  }
+  .school {
+    background-color: lightgray;
+  }
+  .school h3, .school li {
+    text-align: right;
   }
   .fa-icon {
     width: auto;
     height: 2em;
     padding: .25em;
   }
+  .header {
+    background-color: lightgray;
+  }
   .header-text {
     float: left;
-    text-align: right;
     width: 70%;
   }
   .home-button {
@@ -198,6 +205,13 @@
   }
   h1, h2, h4 {
     margin: 0;
+    text-align: right;
+  }
+  h1 {
+    margin-top: .8em;
+  }
+  h2 {
+    padding-right: .25em;
   }
   h4 {
     margin-top: 4px;
@@ -206,6 +220,7 @@
     text-align: left;
   }
   ul {
-    padding-bottom: 1em;
+    list-style: none;
+    padding: 1em;
   }
 </style>

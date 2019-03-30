@@ -12,6 +12,12 @@ export default {
 </script>
 
 <style>
+  #app {
+    height: 100%;
+  }
+  main {
+    height: 100%;
+  }
   body, html {
     height: 100%;
     margin: 0;
@@ -28,6 +34,7 @@ export default {
   }
   h1, h2, h3, h4 {
     font-weight: 200;
+    text-align: left;
   }
   p, a {
     display: inline;
@@ -41,7 +48,7 @@ export default {
     width: 350px;
     margin: 0 auto;
     padding-top: 2em;
-    text-align: center;
+    text-align: left;
   }
   .home {
     position: fixed;

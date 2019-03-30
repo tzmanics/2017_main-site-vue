@@ -37,21 +37,11 @@
 </script>
 
 <style scoped>
-  .name {
-    font-size: 2em;
-  }
-  .resume {
-    font-size: 5.7em;
-  }
-  .weblog {
-    font-size: 5.5em;
+  .background-box {
+    height: 100%;
   }
   .contact {
     font-size: 5.1em;
-  }
-  .videos {
-    font-size: 6.4em;
-    padding-left: .05em;
   }
   .creations {
     font-size: 4.1em;
@@ -60,6 +50,22 @@
     width: auto;
     height: 1.5em;
     padding: .25em;
+  }
+  .main {
+    height: 100%;
+  }
+  .name {
+    font-size: 2em;
+  }
+  .resume {
+    font-size: 5.7em;
+  }
+  .videos {
+    font-size: 6.4em;
+    padding-left: .05em;
+  }
+  .weblog {
+    font-size: 5.5em;
   }
   a:link {
     text-decoration: none;
