@@ -116,7 +116,7 @@
           </ul>
         </div>
         <div class="content">
-          <h3>SELECTED CONTENT</h3>
+          <h3>Selected Presentations &amp; Publications</h3>
           <div class="talks">
             TALKS
             <ul> UPCOMING:
@@ -171,7 +171,7 @@
     height: 100%;
     width: 90%;
   }
-  .school {
+  .content, .school {
     background-color: lightgray;
   }
   .school h3, .school li {

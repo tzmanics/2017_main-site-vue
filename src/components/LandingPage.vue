@@ -37,8 +37,21 @@
 </script>
 
 <style scoped>
+  .announcements {
+    background-color: rgba(22, 22, 22, 0.75);
+    color: lightblue;
+    font-size: 2em;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .announcements a {
+    color: white;
+  }
   .background-box {
     height: 100%;
+    padding-bottom: 40px;
   }
   .contact {
     font-size: 5.1em;
@@ -54,11 +67,21 @@
   .main {
     height: 100%;
   }
+  .menu {
+    text-align: center;
+  }
   .name {
     font-size: 2em;
   }
+  .name:hover {
+    color: black;
+    cursor: text;
+  }
   .resume {
     font-size: 5.7em;
+  }
+  .social-icons {
+    text-align: center;
   }
   .videos {
     font-size: 6.4em;
@@ -77,26 +100,7 @@
     text-decoration: none;
     color: darkslategray;
   }
-  .name:hover {
-    color: black;
-    cursor: text;
-  }
   a:active {
     text-decoration: none;
-  }
-  .announcements {
-    background-color: rgba(22, 22, 22, 0.75);
-    color: lightblue;
-    font-size: 2em;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-  }
-  .announcements a {
-    color: white;
-  }
-  .background-box {
-    padding-bottom: 40px;
   }
 </style>
