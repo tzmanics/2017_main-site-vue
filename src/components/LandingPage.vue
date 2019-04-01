@@ -51,7 +51,7 @@
   }
   .background-box {
     height: 100%;
-    padding-bottom: 40px;
+    padding: 20px 20px 40px 20px;
   }
   .contact {
     font-size: 5.1em;

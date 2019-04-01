@@ -6,7 +6,7 @@
     <div class="resume">
       <div class="header">
         <div class="header-text">
-          <h1>TARA ZVEZDA MANICSIC</h1>
+          <h1>Tara Zvezda Manicsic</h1>
           <h2>DEVELOPER ADVOCATE</h2>
           <h4>
             <a href="mailto:tzmanics@gmail.com">tzmanics@gmail.com</a>
@@ -164,8 +164,9 @@
   .content, .school {
     background-color: lightgray;
   }
-  .school h3, .school li {
-    text-align: right;
+  .description, .title {
+    font-family: 'Prata', serif;
+    padding: 1em 0 0 1em;
   }
   .fa-icon {
     width: auto;
@@ -187,6 +188,13 @@
   .home-button {
     position: fixed;
   }
+  .info {
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+  }
+  .info h3 {
+    margin: .25em 0 .25em 1em;
+  }
   .message {
     font-size: 1.5em;
     margin: 0 auto;
@@ -203,23 +211,27 @@
     margin: 0 auto;
     max-width: 800px;
   }
+  .school h3, .school li {
+    text-align: right;
+  }
+  a {
+    text-decoration: none;
+  }
   h1, h2, h4 {
     margin: 0;
   }
   h1 {
+    font-family: 'Prata', serif;
     margin-top: .8em;
   }
   h2 {
-    padding-right: .25em;
-  }
-  h4 {
-    margin-top: 4px;
+    font-size: 2em;
   }
   li {
     text-align: left;
   }
   ul {
     list-style: none;
-    padding: 1em;
+    padding: 1em 0;
   }
 </style>

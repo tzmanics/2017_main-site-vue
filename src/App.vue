@@ -29,8 +29,8 @@ export default {
 		background-attachment: fixed;
 		background-size:  cover;
 		background-color: #999;
-    font-family: 'Source Sans Pro', Helvetica, sans-serif;
-    font-weight: 200;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-weight: 100;
   }
   h1, h2, h3, h4 {
     font-weight: 200;
