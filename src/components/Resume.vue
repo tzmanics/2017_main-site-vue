@@ -51,7 +51,7 @@
           <li>
             <div class="title">
               <h3>
-                Harvard University Extension School
+                Harvard University Extension School<br>
                 ALB &#183; Major - Computer Science
                 &#183; Minor - Visual Arts
               </h3>
@@ -116,13 +116,14 @@
       </div>
       <div class="content">
         <h3>Selected Presentations &amp; Publications</h3>
+        <div class="info">
+          <h3>DECEMBER 2015 - FUTURE</h3>
+        </div>
         <div class="talks">
           TALKS
-          <ul> UPCOMING:
+          <ul>
             <li><a href="https://2019.jsconf.eu/">JSConfEU</a></li>
             <li><a href="https://frontendconf.ch/">Front Conference</a></li>
-          </ul>
-          <ul> PAST:
             <li><a href="https://goo.gl/diqAii">dotJS</a></li>
             <li><a href="">OSCon</a></li>
             <li><a href="https://goo.gl/gNX8aP">Fluent</a></li>
@@ -156,17 +157,37 @@
 <style scoped>
   .avatar {
     border-radius: 50%;
-    height: 180px;
+    height: 13em;
     overflow: hidden;
     position: relative;
-    width: 180px;
+    width: 13em;
+  }
+  .content h3 {
+    padding: .225em 0;
+    text-align: center;
+  }
+  .content h3, h1, h2, h4 {
+    font-family: 'Rozha One', serif;
+    margin: 0;
   }
   .content, .school {
     background-color: lightgray;
   }
+  .content .info, .school .info {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+  }
+  .content .info h3, .list-header {
+    font-family: 'Work Sans', sans-serif;
+    margin: .25em 1em;
+    padding: 0;
+  }
   .description, .title {
-    font-family: 'Prata', serif;
-    padding: 1em 0 0 1em;
+    font-family: 'Rozha One', serif;
+    padding: .25em 1em;
+  }
+  .description {
+    margin: .25em 0 1em 0;
   }
   .fa-icon {
     width: auto;
@@ -175,7 +196,7 @@
   }
   .header {
     background-color: lightgray;
-    height: 130px;
+    height: 7em;
     padding: 1em 0 0 1em;
   }
   .header-text {
@@ -192,8 +213,8 @@
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
   }
-  .info h3 {
-    margin: .25em 0 .25em 1em;
+  .info h3{
+    margin: .25em 1em;
   }
   .message {
     font-size: 1.5em;
@@ -206,32 +227,53 @@
     margin: 0 auto;
     width: auto;
   }
+  .posts, .talks {
+    font-family: 'Rozha One', serif;
+    height: 200px;
+    padding: .5em 1em;
+  }
+  .posts, .posts li {
+    line-height: 1.5em;
+    text-align: right;
+  }
   .resume {
     background-color: white;
     margin: 0 auto;
     max-width: 800px;
+    min-width: 722px;
   }
   .school h3, .school li {
     text-align: right;
   }
+  .talks {
+    float: left;
+    width: 50%;
+  }
+  .title h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
   a {
     text-decoration: none;
   }
-  h1, h2, h4 {
-    margin: 0;
-  }
   h1 {
-    font-family: 'Prata', serif;
+    font-size: 2.75em;
+    line-height: .75em;
     margin-top: .8em;
   }
   h2 {
-    font-size: 2em;
+    font-family: 'Work Sans', serif;
+    font-size: 2.35em;
+  }
+  h3 {
+    margin-bottom: 0;
   }
   li {
     text-align: left;
   }
   ul {
     list-style: none;
+    margin: 0;
     padding: 1em 0;
   }
 </style>
