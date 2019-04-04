@@ -9,7 +9,8 @@
           <a href="https://github.com/tzmanics/2017_weblog-ui-preact">
             In the process 
           </a>
-          of making this awesome...or at least a list of my blog posts (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
+          of making this awesome...or at least a list of my blog posts</br>
+          (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
         </p>
         <p> In the meantime, check these out: </p>    
         <ul>
@@ -58,6 +59,9 @@
   }
   li {
     text-align: left;
+  }
+  li a {
+    text-decoration: none;
   }
   ul {
     padding-bottom: 1em;

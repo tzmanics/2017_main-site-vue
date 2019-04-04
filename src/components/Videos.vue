@@ -3,40 +3,39 @@
     <router-link class="home" to="/">
       <icon name="home"></icon>
     </router-link>
-    <div class="background-box">
-      <div class="message">
-        <p>
-          <a href="https://github.com/tzmanics/2017_videos-ui-ng.git">
-            In the process 
-          </a>
-          of making this awesome...or at least a list of my videos (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
-        </p>
-        <p> In the meantime, check these out: </p>    
+      <div class="video-list">
         <ul>
           <li>
-            <a href="https://www.youtube.com/watch?v=XhIPaj_Zq9c&t=304s">
-              Donut.js
-            </a>
+            <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/Srb-dmnVbYY"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen>
+            </iframe>
           </li>
           <li>
-            <a href="https://www.youtube.com/watch?v=njsvP3x_WS0&t=370s">
-              Women Techmakers
-            </a>
+            <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/QATVDJ1HvHY"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen>
+            </iframe>
           </li>
           <li>
-            <a href="https://www.youtube.com/watch?v=j2S5OrMUj9g">
-              NG-Conf 2017 
-            </a>
+            <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/KL0Ub1XZyU8"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen>
+            </iframe>
           </li>
           <li>
-            <a href="https://www.youtube.com/watch?v=5KOJDUCD8Ag&t=378s">
-              Cincy Tech Cafeteria 
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=y7q15bGfHsE">
-              Kendo UI Webinar
-            </a>
+            <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/bV-RhMB8_Bc"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen>
+            </iframe>
           </li>
         </ul>
       </div>
@@ -54,20 +53,15 @@
     height: 2em;
     padding: .25em;
   }
-  .background-box{
-    width: 460px;
-  }
-  .message {
-    font-size: 1.5em;
+  .video-list {
     margin: 0 auto;
-    text-align: left;
-    width: 65%;
+    width: 70%;
   }
   li {
+    list-style: none;
+    margin: 1em;
     text-align: left;
-  }
-  ul {
-    padding-bottom: 1em;
+    text-decoration: none;
   }
 </style>
 
