@@ -92,6 +92,17 @@
           </li>
           <li>
             <div class="title">
+              <h3>Co-Founder &amp; Organizer | Cincy NodeSchool</h3>
+            </div>
+            <div class="info">
+              <h3>AUGUST 2014 - PRESENT &#183; CINCINNATI, OH</h3>
+            </div>
+            <div class="description">
+              Helping support and grow the Node and JavaScript community by leading and organizing events centered around Node, JavaScript & NodeSchool workshoppers. Hosting monthly workshops and presentations as well as leading impromtu workshops when requested by community organizations.
+            </div>
+          </li>
+          <li>
+            <div class="title">
               <h3>Founder &amp; Director | Cincy Women Who Code</h3>
             </div>
             <div class="info">
@@ -103,13 +114,13 @@
           </li>
           <li>
             <div class="title">
-              <h3>Co-Founder &amp; Organizer | Cincy NodeSchool</h3>
+              <h3>Other Notable Community Involvement</h3>
             </div>
             <div class="info">
-              <h3>AUGUST 2014 - PRESENT &#183; CINCINNATI, OH</h3>
+              <h3>OCTOBER 2016 - PRESENT</h3>
             </div>
             <div class="description">
-              Helping support and grow the Node and JavaScript community by leading and organizing events centered around Node, JavaScript & NodeSchool workshoppers. Hosting monthly workshops and presentations as well as leading impromtu workshops when requested by community organizations.
+              Emcee: ng-cong 2018/2019, Node Summit 2018 | Diversity Scholarship Committee: ReactConf2018, ng-confi 2019 | TC39 Educators Outreach Group
             </div>
           </li>
         </ul>
@@ -120,19 +131,23 @@
           <h3>DECEMBER 2015 - FUTURE</h3>
         </div>
         <div class="talks">
-          TALKS
+        <h3>Presentations</h3>
           <ul>
-            <li><a href="https://2019.jsconf.eu/">JSConfEU</a></li>
-            <li><a href="https://frontendconf.ch/">Front Conference</a></li>
+            <li><a href="https://2019.jsconf.eu/">JSConfEU </a>| June 2019</li>
+            <li><a href="https://frontendconf.ch/">Front Conference </a>
+              | August 2019
+            </li>
             <li><a href="https://goo.gl/diqAii">dotJS</a></li>
-            <li><a href="">OSCon</a></li>
+            <li><a href="https://urlzs.com/DwCj">DevFest Atlanta </a>
+              | Keynote
+            </li>
+            <li><a href="https://urlzs.com/e4a4">OSCon</a></li>
             <li><a href="https://goo.gl/gNX8aP">Fluent</a></li>
-            <li><a href="">Node Summit</a></li>
-            <li><a href="">All Things Open</a></li>
+            <li><a href="https://urlzs.com/wVQp">Node Summit</a></li>
           </ul>
         </div>
         <div class="posts">
-          BLOG POSTS
+          <h3>Blog Posts</h3>
           <ul>
             <li><a href="https://goo.gl/hbHHfU">How to JavaScript in 2018</a>
             </li>
@@ -169,6 +184,9 @@
   .content h3, h1, h2, h4 {
     font-family: 'Rozha One', serif;
     margin: 0;
+  }
+  .content ul {
+    padding-top: 0;
   }
   .content, .school {
     background-color: lightgray;
@@ -236,18 +254,21 @@
     line-height: 1.5em;
     text-align: right;
   }
+  .posts h3, .school h3, .school li {
+    text-align: right;
+  }
   .resume {
     background-color: white;
     margin: 0 auto;
     max-width: 800px;
     min-width: 722px;
   }
-  .school h3, .school li {
-    text-align: right;
-  }
   .talks {
     float: left;
     width: 50%;
+  }
+  .talks h3, li {
+    text-align: left;
   }
   .title h3 {
     font-size: 1.5em;
@@ -267,9 +288,6 @@
   }
   h3 {
     margin-bottom: 0;
-  }
-  li {
-    text-align: left;
   }
   ul {
     list-style: none;
