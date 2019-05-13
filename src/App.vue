@@ -25,10 +25,10 @@ export default {
   body {
     background-image: url('https://tinyurl.com/ycj755vx');
     background-position: center center;
-		background-repeat:  no-repeat;
-		background-attachment: fixed;
-		background-size:  cover;
-		background-color: #999;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
     font-family: 'Work Sans', Helvetica, sans-serif;
     font-weight: 100;
   }
