@@ -41,7 +41,7 @@
               <h3>AUGUST 2014 - NOVEMBER 2016  &#183; CINCINNATI, OH</h3>
             </div>
             <div class="description">
-              <p>Create public and enterprise level software to help companies and developers host their applications as well as monitor their application’s performance on AWS, Joyent and Digital Ocean servers. Write, maintain, test and deploy software using Node.js, MongoDB, Docker, React and Go.</p>
+              <p>Create public and enterprise level software to help companies and developers host their applications as well as monitor their application’s performance on AWS, Joyent and DigitalOcean servers. Write, maintain, test and deploy software using Node.js, MongoDB, Docker, React and Go.</p>
             </div>
           </li>
         </ul>
@@ -120,7 +120,7 @@
               <h3>OCTOBER 2016 - PRESENT</h3>
             </div>
             <div class="description">
-              Emcee: ng-cong 2018/2019, Node Summit 2018 | Diversity Scholarship Committee: ReactConf2018, ng-confi 2019 | TC39 Educators Outreach Group
+              Emcee: ng-cong 2018/2019, Node Summit 2018 | Diversity Scholarship Committee: ReactConf2018, ng-conf 2019 | TC39 Educators Outreach Group
             </div>
           </li>
         </ul>
@@ -158,6 +158,11 @@
             <li><a href="https://goo.gl/Ureka7">
               JavaScript's Journey Through 2016</a>
             </li>
+          </ul>
+          <h3>Video Tutorials</h3>
+          <ul>
+            <li><a href="https://bit.ly/2WK1CQP">Kendo UI for React</a> </li>
+            <li><a href="https://bit.ly/2HsK8lu">Kendo UI for Vue</a></li>
           </ul>
         </div>
       </div>
@@ -257,6 +262,9 @@
   .posts h3, .school h3, .school li {
     text-align: right;
   }
+  .posts h3, .talks h3 {
+    text-decoration: underline;
+  }
   .resume {
     background-color: white;
     margin: 0 auto;
@@ -292,6 +300,21 @@
   ul {
     list-style: none;
     margin: 0;
-    padding: 1em 0;
+    padding: 1em 0 0 0;
+  }
+  @media print {
+    .content li {
+      line-height: 16px;
+    }
+    .posts h3, .talks h3 {
+      padding-bottom: 0;
+    }
+    .school, .school .info, .content .info {
+      border-bottom: 1px solid lightgray;
+      border-top: 1px solid lightgray;
+    }
+    .school {
+      margin-bottom: 2.7em;
+    }
   }
 </style>

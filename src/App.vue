@@ -53,4 +53,9 @@ export default {
   .home {
     position: fixed;
   }
+  @media print {
+    .home {
+      display: none;
+    }
+  }
 </style>
