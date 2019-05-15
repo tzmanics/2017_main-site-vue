@@ -37,6 +37,22 @@
                 picture-in-picture" allowfullscreen>
             </iframe>
           </li>
+          <li>
+            <iframe width="560" height="315" 
+              src="https://youtube.com/embed/3goM9S5vFDo"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen>
+            </iframe>
+          </li>
+          <li>
+            <iframe width="560" height="315" 
+              src="https://youtube.com/embed/YLPLafiKd3E"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen>
+            </iframe>
+          </li>
         </ul>
       </div>
     </div>
