@@ -1,13 +1,9 @@
 <template>
-  <ul class="list">
-  </ul>
+  <ul class="list"></ul>
 </template>
 
 <script>
-  export default {}
+export default {};
 </script>
 
-<style scoped>
-</style>
-
-
+<style scoped></style>
