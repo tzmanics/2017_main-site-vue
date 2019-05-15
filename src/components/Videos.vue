@@ -55,13 +55,13 @@
   }
   .video-list {
     margin: 0 auto;
-    width: 70%;
   }
   li {
+    float: left;
     list-style: none;
     margin: 1em;
-    text-align: left;
     text-decoration: none;
+    width: 550px;
   }
 </style>
 
