@@ -155,11 +155,11 @@
         <div class="talks">
           <h3>Presentations</h3>
           <ul>
-            <li><a href="https://2019.jsconf.eu/">JSConfEU </a>| June 2019</li>
             <li>
               <a href="https://frontendconf.ch/">Front Conference </a>
               | August 2019
             </li>
+            <li><a href="https://bit.ly/2Y0kuLX">JSConfEU </a></li>
             <li><a href="https://goo.gl/diqAii">dotJS</a></li>
             <li>
               <a href="https://urlzs.com/DwCj">DevFest Atlanta </a>

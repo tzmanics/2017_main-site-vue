@@ -31,8 +31,8 @@
     </div>
     <div class="announcements">
       COME SEE ME AT
-      <a href="https://2019.jsconf.eu/"> JSConfEU </a>
-      6/1-2 IN BERLIN!
+      <a href="https://frontendconf.ch"> FRONT CONFERENCE </a>
+      8/29-30 IN ZURICH!
     </div>
   </div>
 </template>
