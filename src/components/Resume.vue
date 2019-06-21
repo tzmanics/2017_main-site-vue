@@ -28,7 +28,7 @@
               <h3>NOVEMBER 2016 - PRESENT &#183; REMOTE FROM CINCINNATI, OH</h3>
             </div>
             <div class="description">
-              Producing creative and engaging demo applications, presentations
+              Produce creative and engaging demo applications, presentations
               and content to introduce, educate and support developers using the
               Progress Telerik developer tools. Cultivate tech communities to
               connect and work with other developers to help the team build a
@@ -109,10 +109,10 @@
               <h3>AUGUST 2014 - PRESENT &#183; CINCINNATI, OH</h3>
             </div>
             <div class="description">
-              Helping support and grow the Node and JavaScript community by
+              Help support and grow the Node and JavaScript community by
               leading and organizing events centered around Node, JavaScript &
-              NodeSchool workshoppers. Hosting monthly workshops and
-              presentations as well as leading impromtu workshops when requested
+              NodeSchool workshoppers. Host monthly workshops and
+              presentations as well as lead impromtu workshops when requested
               by community organizations.
             </div>
           </li>
@@ -124,11 +124,11 @@
               <h3>SEPTEMBER 2015 - SEPTEMBER 2018 &#183; CINCINNATI, OH</h3>
             </div>
             <div class="description">
-              Organizing, producing and leading technical workshops and events
+              Organize, produce and lead technical workshops and events
               that help foster the community of women in tech in Cincinnati and
-              surrounding areas. Fortifying relationships & continuing education
+              surrounding areas. Fortify relationships & continuing education
               to help women have both educational and moral support in our tech
-              community. Teaching JavaScript-based, adult workshops as well as
+              community. Teach JavaScript-based, adult workshops as well as
               HTML/CSS core classes to STEM Girls and Girl Scout troops.
             </div>
           </li>
