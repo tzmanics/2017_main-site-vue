@@ -38,7 +38,31 @@
 </template>
 
 <script>
-export default {}
+export default {
+  metaInfo: {
+    meta: [
+      {property: 'og:title', content: 'Tara Z. Manicsic | Stuff I Make 😘'},
+      {property: 'og:site_name', content: 'Tara Z. Manicsic Website'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:url', content: 'https://tzmanics.com'},
+      {property: 'og:image', content: 'https://bit.ly/2zbbWH3'},
+      {property: 'og:description', content: 'Look what I can do! code().craft().contemplate().communicate()'},
+
+      // Twitter card
+      {name: 'twitter:card', content: 'summary'},
+      {name: 'twitter:site', content: 'https://tzmanics.com'},
+      {name: 'twitter:title', content: 'Tara Z. Manicsic | Stuff I Make 😘'},
+      {name: 'twitter:description', content: 'Look what I can do! code().craft().contemplate().communicate()'},
+      {name: 'twitter:creator', content: '@tzmanics'},
+      {name: 'twitter:image:src', content: 'https://bit.ly/2zbbWH3'},
+
+      // Google / Schema.org markup:
+      {itemprop: 'name', content: 'Tara Z. Manicsic Website'},
+      {itemprop: 'description', content: 'Look what I can do! code().craft().contemplate().communicate()'},
+      {itemprop: 'image', content: 'https://bit.ly/2zbbWH3'}
+    ]
+  }
+}
 </script>
 
 <style scoped>

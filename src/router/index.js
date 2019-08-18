@@ -5,8 +5,10 @@ import LandingPage from '@/components/LandingPage'
 import Weblog from '@/components/Weblog'
 import Videos from '@/components/Videos'
 import Creations from '@/components/Creations'
+import Meta from 'vue-meta'
 
 Vue.use(Router)
+Vue.use(Meta)
 
 export default new Router({
   routes: [
