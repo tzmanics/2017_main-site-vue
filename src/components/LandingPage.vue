@@ -31,8 +31,8 @@
     </div>
     <div class="announcements">
       COME SEE ME AT
-      <a href="https://frontendconf.ch"> FRONT CONFERENCE </a>
-      8/29-30 IN ZURICH!
+      <a href="https://jsmobileconf.com"> JSMOBILECONF </a>
+      12-13 NOV | BOSTON!
     </div>
   </div>
 </template>
